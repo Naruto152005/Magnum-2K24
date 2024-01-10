@@ -1,0 +1,181 @@
+
+
+
+@media screen and (max-width: 600px) {
+  .container{
+    margin-inline: 20px;
+    
+    }
+  p{
+    font-size: 18px;
+  }
+h1{
+    font-size: 2.5rem;
+  }
+h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.6rem;
+}
+
+  .name a{
+    font-size: 36px;
+  }
+  .container{
+    margin-inline: 20px;
+    
+   }
+  .navbar {
+    overflow: initial;
+  }
+  .nav-toggle{
+    display: block;
+  }
+
+  .nav-links{
+position: absolute;
+background-color:#000000;
+left: -100%;
+top:100%;
+width: 100%;
+padding-block: 20px;
+transition: 0.2s ease-in-out;
+  }
+  .nav-links.active {
+    left: 0;
+  }
+  .nav-links ul{
+    flex-direction: column;
+  }
+
+  
+  .header-text {
+    margin-top: 30%;
+}
+.header-text h1 {
+  margin-top: 6%;
+}
+.header-text p {
+  font-size: 28px;
+}
+
+.aboutme{
+  justify-content: center;
+  align-items: center;
+}
+.about-col-1,.about-col-2{
+  flex-basis: 100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.about-col-2{
+  margin-top: 40px;
+}
+.about-col-2 p{
+font-size: 20px;
+margin-top: 20px;
+
+}
+
+.table-titles{
+justify-content: space-between;
+}
+.table-containts ul li {
+    font-size: 19px;
+}
+
+
+
+.contact-me{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.mail p a {
+  font-size: 21px;
+}
+ .btn {
+  display: flex;
+  justify-content: center;
+ }
+ .left-side .primary-button {
+  font-size: 1.1rem;
+   padding: 12px 24px; 
+   width: 100%;
+}
+
+.copywrite p{
+  font-size:16px
+}
+}
+
+@media screen  and (max-device-width:900px){
+  .container{
+    margin-inline: 20px;
+    /* flex-direction: column; */
+    
+    }
+  h1{
+    font-size: 2.7rem;
+  }
+  .navbar {
+    overflow: initial;
+  }
+  .nav-toggle{
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background-color:#000000;
+    left: -100%;
+    top:100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+      }
+      .nav-links.active {
+        left: 0;
+      }
+      .nav-links ul{
+        flex-direction: column;
+      }
+
+      .table-containts ul li {
+        font-size: 17px;
+    }
+    .grid{
+      grid-template-columns: repeat(min-max(200px,1fr));
+   
+    }
+    .services-list div p {
+      font-size: 15px;
+  }
+  .layer a{
+    line-height: 51px;
+    width: 50px;
+    height: 50px;
+  }
+  .contact-me {
+    gap: 50px;
+  }
+  .right-side h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+}
+
+@media only screen and (max-device-width: 1200px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+
